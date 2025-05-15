@@ -5,7 +5,7 @@ const GlobalStyles = createGlobalStyle`
   ${reset}
 
   body {
-    font-family: 'Noto Sans KR', sans-serif;
+    font-family: 'Pretendard', sans-serif;
     background: ${props => props.theme.colors.bodyBackground};
   }
 

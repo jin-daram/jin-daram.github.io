@@ -1,3 +1,5 @@
+const CUSTOM = "#1147E6"
+
 const GRAY9 = "#191919"
 const GRAY8 = "#2D2D2D"
 const GRAY7 = "#404040"
@@ -13,7 +15,7 @@ export const light = {
   name: "light",
   colors: {
     bodyBackground: "#ffffff",
-    text: GRAY9,
+    text: CUSTOM,
     secondaryText: GRAY7,
     tertiaryText: GRAY6,
     mutedText: GRAY5,
@@ -44,6 +46,7 @@ export const light = {
     textFieldBorder: GRAY4,
     textFieldActivatedBorder: GRAY5,
     tableBackground: GRAY1,
+    articleColor: GRAY9,
   },
 }
 
@@ -82,5 +85,6 @@ export const dark = {
     textFieldBorder: GRAY7,
     textFieldActivatedBorder: GRAY6,
     tableBackground: "#292e33",
+    articleColor: GRAY0,
   },
 }

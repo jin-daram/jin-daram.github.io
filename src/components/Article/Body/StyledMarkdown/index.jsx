@@ -3,7 +3,7 @@ import styled from "styled-components"
 const StyledMarkdown = styled.div`
   & {
     font-size: 16px;
-    color: ${props => props.theme.colors.text};
+    color: ${props => props.theme.colors.articleColor};
     line-height: 1.73;
     overflow: visible;
   }
@@ -145,7 +145,7 @@ const StyledMarkdown = styled.div`
     font-size: 13px;
     background-color: ${props => props.theme.colors.inlineCodeBackground};
     font-weight: bold;
-    color: ${props => props.theme.colors.text};
+    color: ${props => props.theme.colors.articleColor};
   }
 
   & h2 > code.language-text,
