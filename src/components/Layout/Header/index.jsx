@@ -44,8 +44,8 @@ const Inner = styled.div`
 `
 
 const BlogTitle = styled.span`
-  letter-spacing: -1px;
-  font-family: "Source Code Pro", sans-serif;
+  letter-spacing: -0.5px;
+  font-family: "Pretendard", "Source Code Pro", sans-serif;
   font-weight: 700;
   font-size: 24px;
   color: ${props => props.theme.colors.text};
@@ -142,7 +142,7 @@ const Header = ({ toggleTheme }) => {
       <Inner>
         <BlogTitle>
           <Link to="/">{title}</Link>
-        </BlogTitle>
+        </BlogTitle> 
         <Menu>
           <ToggleWrapper>
             <IconRail theme={theme.name}>

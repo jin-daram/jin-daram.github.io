@@ -7,7 +7,7 @@ const CommonStyle = css`
     font-size: 13.5px;
     color: #ccc;
     background: none;
-    font-family: "Pretendard", Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     text-align: left;
     white-space: pre;
     word-spacing: normal;
@@ -28,6 +28,7 @@ const CommonStyle = css`
   /* Code blocks */
   pre[class*="language-"] {
     padding: 1em;
+    font-family: Consolas;
     overflow: auto;
   }
 

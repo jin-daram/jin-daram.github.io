@@ -92,7 +92,7 @@ const StyledMarkdown = styled.div`
     padding: 18px 24px;
     border-left: 4px solid ${props => props.theme.colors.blockQuoteBorder};
     background-color: ${props => props.theme.colors.blockQuoteBackground};
-
+   
     & *:last-child {
       margin-bottom: 0;
     }
@@ -197,6 +197,7 @@ const StyledMarkdown = styled.div`
   }
 
   & pre {
+  
     ::-webkit-scrollbar {
       height: 10px;
     }
@@ -255,6 +256,7 @@ const StyledMarkdown = styled.div`
     border-top: 1px solid ${props => props.theme.colors.border};
     font-size: 14px;
   }
+
 `
 
 export default StyledMarkdown
