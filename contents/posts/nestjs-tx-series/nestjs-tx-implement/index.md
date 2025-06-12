@@ -232,10 +232,10 @@ export class UserService {
 ![Transaction이 정상적으로 적용되는 모습](./transaction-success.png)
 
 
+### 문제점
+
+하지만 여전히 부족한 점이 많다. 트랜잭션이 정상적으로 적용되기는 하지만, 로직이 복잡해지고, 함수가 분리되는 경우의 트랜잭션 전략에 대한 전략책이 없다. `typeorm-transactional` 에서는 이런 것 까지 잘 지원하고 있으니, 결국 좋은 라이브러리를 사용하는 것이 좋은 것 같다.
+
+본 포스트는 `DataSource`, `EntityManger` 와 관련하여 `TypeORM` 환경에서 `Transaction` 이 어떻게 적용되는지에 대한 학습을 목적으로 작성한 글이기 때문에 부족한 부분이 있을 수 있다. 피드백은 언제나 환영이기에 하단의 **Discussion** 을 적극적으로 활용해주시기 바란다.
+
 자세한 코드는 [블로그 코드 Repository](https://github.com/jin-daram/tech-blog-code-lab) 에서 확인 할 수 있다.
-
-
-
-### References
-
-https://medium.com/%40sebcurland/the-power-of-async-hooks-in-node-js-8a2a84238acb
