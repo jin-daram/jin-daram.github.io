@@ -19,7 +19,7 @@ const ArticleTitle = styled.h1`
   line-height: 1.2;
   font-size: 44.8px;
   font-weight: 700;
-  color: ${props => props.theme.colors.text};
+  color: ${props => props.theme.colors.articleTitle};
 `
 
 const Information = styled.div`

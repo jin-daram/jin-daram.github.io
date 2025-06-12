@@ -15,7 +15,7 @@ const SeriesHeader = styled.h2`
   margin-bottom: 16px;
   font-size: 16px;
   font-weight: bold;
-  color: ${props => props.theme.colors.text};
+  color: ${props => props.theme.colors.articleTitle};
 
   & > span {
     font-weight: normal;
@@ -39,7 +39,7 @@ const Post = styled.li`
   font-size: 12.8px;
   color: ${props =>
     props.currentPost
-      ? props.theme.colors.text
+      ? props.theme.colors.articleTitle
       : props.theme.colors.tertiaryText};
 
   &:not(:last-child) {

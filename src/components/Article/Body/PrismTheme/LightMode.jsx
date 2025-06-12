@@ -34,7 +34,7 @@ const Theme = css`
 
   code[class*="language-"],
   pre[class*="language-"] {
-    background-color: #f7f6f3;
+    background-color: #F6F8FA;
     color: hsl(230, 8%, 24%);
   }
 
@@ -59,10 +59,13 @@ const Theme = css`
     color: hsl(230, 4%, 64%);
   }
 
+  .token.annotation.punctuation {
+    color: #0550ae;
+  }
   .token.doctype,
   .token.punctuation,
   .token.entity {
-    color: hsl(230, 8%, 24%);
+    color: #1f2328;
   }
 
   .token.attr-name,
@@ -71,11 +74,12 @@ const Theme = css`
   .token.constant,
   .token.number,
   .token.atrule {
-    color: hsl(35, 99%, 36%);
+    color: #1f2328;
   }
 
   .token.keyword {
-    color: hsl(301, 63%, 40%);
+    /* color: hsl(0, 0%, 43.92156862745098%); */
+    color: #cf222e;
   }
 
   .token.property,
@@ -100,7 +104,7 @@ const Theme = css`
   .token.variable,
   .token.operator,
   .token.function {
-    color: hsl(221, 87%, 60%);
+    color: #6639ba;
   }
 
   .token.url {

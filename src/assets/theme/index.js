@@ -14,6 +14,7 @@ const GRAY0 = "#f8f9fa"
 export const light = {
   name: "light",
   colors: {
+    articleTitle: GRAY9,
     bodyBackground: "#ffffff",
     text: CUSTOM,
     secondaryText: GRAY7,
@@ -53,6 +54,7 @@ export const light = {
 export const dark = {
   name: "dark",
   colors: {
+    articleTitle: GRAY0,
     bodyBackground: GRAY9,
     text: GRAY0,
     secondaryText: GRAY4,
