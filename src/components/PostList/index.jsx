@@ -7,6 +7,7 @@ import { Link } from "gatsby"
 import Title from "components/Title"
 import Divider from "components/Divider"
 import TagList from "components/TagList"
+import parse from "utils/dateParser"
 
 const PostListWrapper = styled.div`
   @media (max-width: 768px) {
@@ -80,7 +81,7 @@ const PostList = ({ postList }) => {
               <Title size="bg">
                 <Link to={slug}>{title}</Link>
               </Title>
-              <Date>{date}</Date>
+              <Date>{parse(date)}</Date>
               <Excerpt>{excerpt}</Excerpt>
               <TagList tagList={tags} />
             </PostWrapper>
