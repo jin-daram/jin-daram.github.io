@@ -2,7 +2,7 @@ module.exports = {
   title: "Let's solve it",
   description: "문제들을 한번 해결해봅시다.",
   author: "jin-daram",
-  siteUrl: "https://jin-daram.github.io/",
+  siteUrl: "https://jindaram.site",
   links: {
     github: "https://github.com/jin-daram",
   },
