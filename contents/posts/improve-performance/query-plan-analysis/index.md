@@ -3,6 +3,7 @@ title: '실무에서 쿼리 플랜을 통한 성능 개선 경험 (feat. 134배 
 description: 실무에서 쿼리 플랜을 통해 API 성능을 개선한 사례를 소개합니다.
 date: 2025-06-17
 update: 2025-06-17
+series: 성능 개선 사례
 tags:
   - 성능개선
   - 쿼리플랜
@@ -11,7 +12,7 @@ tags:
 ---
 [네이버](https://naver.com)에서 가장 많이 방문하는 주소는 뭘까요? 
 
-[보통 https://naver.com 으로 접속하는 경우가 가장 많습니다.](https://www.similarweb.com/website/naver.com/) 그렇기 때문에 메인 페이지 접속 시 호출되는 API가 느리다면 사용자 경험에 큰 영향을 줄 수밖에 없습니다.
+[보통 https://naver.com 으로 접속하는 경우가 가장 많습니다.](https://www.semrush.com/website/top/south-korea/all/) 그렇기 때문에 메인 페이지 접속 시 호출되는 API가 느리다면 사용자 경험에 큰 영향을 줄 수밖에 없습니다.
 
 실무에서 개발한 서비스도 메인 페이지에서 여러 API를 호출하고 있었고, 단순 캐싱 수준을 넘어 쿼리 플랜에 대한 분석을 통해 개선한 경험을 소개드리려고 합니다. 
 
