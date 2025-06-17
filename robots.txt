@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://jin-daram.github.io/sitemap-index.xml
-Host: https://jin-daram.github.io
+Sitemap: https://jindaram.site/sitemap-index.xml
+Host: https://jindaram.site
