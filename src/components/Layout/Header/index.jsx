@@ -46,8 +46,8 @@ const Inner = styled.div`
 const BlogTitle = styled.span`
   letter-spacing: -0.5px;
   font-family: "Pretendard", "Source Code Pro", sans-serif;
-  font-weight: 700;
-  font-size: 24px;
+  font-weight: 600;
+  font-size: 28px;
   color: ${props => props.theme.colors.text};
 
   & > a {
