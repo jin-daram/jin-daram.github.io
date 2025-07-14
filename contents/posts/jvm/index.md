@@ -1,8 +1,8 @@
 ---
 title: "JVM의 JIT Compiler의 기본"
 description: ""
-date: 2025-07-13
-update: 2025-07-13
+date: 2025-07-14
+update: 2025-07-14
 tags:
   - Java
   - JVM
